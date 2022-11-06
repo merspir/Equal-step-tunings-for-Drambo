@@ -72,7 +72,7 @@ def write(folder, name, range):
 def edf():
     bb = (12 * math.log(3) / math.log(2)) - 12
     for i in range(3, 32):
-        write("ED3_2 (fifth)", f"{i:02} EDF", bb/i)
+        write("EDF (fifth)", f"{i:02} EDF", bb/i)
  
  
 def edo():
